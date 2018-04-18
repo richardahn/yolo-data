@@ -1,0 +1,5 @@
+../yolo-data/drone/images/IMG_0387.jpg
+../yolo-data/drone/images/IMG_0397.jpg
+../yolo-data/drone/images/IMG_0407.jpg
+../yolo-data/drone/images/IMG_0417.jpg
+../yolo-data/drone/images/IMG_0429.jpg

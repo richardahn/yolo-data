@@ -2,8 +2,8 @@ import cv2
 import numpy as np
 
 def main():
-	img = cv2.imread('VOC2010_1000.jpg')
-	with open('VOC2010_1000.txt') as f:
+	img = cv2.imread('IMG_7416.jpg')
+	with open('../yolo/IMG_7416.txt') as f:
 		content = f.readlines()
 		h, w = img.shape[:2]
 		for box in content:
