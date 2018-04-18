@@ -35,7 +35,7 @@ def convert(box):
 	minY = int(round(minY))
 	maxX = int(round(maxX))
 	maxY = int(round(maxY))
-	return [minX, minY, maxX, maxY]
+	return [minY, minX, maxY, maxX]
 
 
 def convert_mat(filename):

@@ -36,10 +36,14 @@ def main():
 		# Open bbox label 
 		with open(labelname, 'r') as f:
 			lines = f.readlines()
+			print("THE LINES ARE")
+			print(lines)
 			for i in range(int(len(lines)/2)):
 				cls = lines[2*i+0].replace('\n', '')
 				vals_str = lines[2*i+1].replace('\n', '')
 				vals = [int(x) for x in vals_str.split(' ')]
+				print("THE VALS IS:")
+				print(vals)
 				vals.insert(0, int(cls))
 				boxes.append(convert(vals, width, height))
 
